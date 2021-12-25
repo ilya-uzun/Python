@@ -1,12 +1,14 @@
-arr = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 
-for i in range(len(arr)):
-    if (i % 5 == 0 and i % 3 == 0):
-        arr[i] = 'FrizzBuzz'
+arr = []
+for i in range(1,18):
+    if (i % 15 == 0):
+        arr.append('FizzBuzz')
     elif i % 5 == 0:
-        arr[i] = 'Frizz'
+        arr.append('Fizz')
     elif i % 3 == 0:
-        arr[i] = 'Buzz'
+        arr.append('Buzz')
+    else:
+        arr.append(i)
 
 for i in arr:
     print(i) 
