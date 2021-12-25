@@ -4,4 +4,4 @@
 
 
 ### FizzBizz
-> Python v. 3
+> Python v. 3.9.7
