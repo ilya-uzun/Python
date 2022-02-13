@@ -1,4 +1,4 @@
-number = 1000
+number = 23
 
 def factorial(n):
     if n == 0:
