@@ -1,3 +1,10 @@
+'''
+    Программа вылетает если значение в LineEdit установлены не правильно
+'''
+
+
+
+
 import sys
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtGui import QIcon
